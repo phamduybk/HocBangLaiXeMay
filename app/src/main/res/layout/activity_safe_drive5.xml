@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Đi đúng cấp số"
+            style="@style/Font_Toolbar"/>
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Rất nhiều người đặc biệt là phụ nữ chỉ đi ở 1 cấp số, điều khiển xe số như xe ga. Hãy lên, xuống số phù hợp với tốc độ di chuyển để đảm bảo an toàn cho bạn và độ bền của xe." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/padding_large"
+                android:src="@drawable/an_toan_khi_di_xe_may_5" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Nếu di chuyển ở đường núi nhiều đèo dốc, sử dụng cấp số thấp và ghi nhớ nguyên tắc “lên số nào, xuống số đó”. Bởi khi lên dốc, số thấp sẽ giúp truyền mô-men lực lớn, còn khi xuống dốc số thấp sẽ ghì xe không chạy theo quán tính, gọi là phanh động cơ." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

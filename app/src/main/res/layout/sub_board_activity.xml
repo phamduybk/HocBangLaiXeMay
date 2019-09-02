@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/sub_board"
+            style="@style/Font_Toolbar" />
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhóm 5 các loại biển báo phụ trong giao thông đường bộ" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Dấu hiệu nhận biết biển báo phụ: Có dạng hình vuông hoặc hình chữ nhật, viền đen, nền trắng, hình vẽ màu đen, thường nằm dưới các biển chính để bổ sung làm rõ ý nghĩa các biển chính." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Tác dụng: Biển phụ thường được kết hợp cùng với các loại biển báo giao thông khác như biển báo cấm, biển báo nguy hiểm, biển chỉ dẫn và biển báo hiệu lệnh để thuyết minh rõ hơn về các biển đó." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Nếu để ý bạn có thể thấy những tấm biển chữ nhật treo phía dưới những biển tròn đỏ (cấm), hoặc biển tam giác nền vàng (cảnh báo nguy hiểm). Những biển chữ nhật phía dưới đó chính là các biển báo phụ (biển phụ)." />
+
+            <TextView
+                style="@style/Font_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:gravity="center_horizontal"
+                android:text="Hình ảnh chi tiết các biển báo phụ giao thông đường bộ" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/cac_loai_bien_bao_phu_giao_thong_duong_bo" />
+
+            <TextView
+                style="@style/Font_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Chi tiết ý nghĩa từng biển báo cấm"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

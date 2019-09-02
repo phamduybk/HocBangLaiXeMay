@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_question_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_normal"
+            android:text="Khái niệm đường bộ được hiểu như thế nào là đúng?"
+            android:textColor="@color/text_color_primary"
+            android:textSize="@dimen/font_text_small"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:id="@+id/iv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:src="@drawable/de2_15" />
+
+        <LinearLayout
+            android:id="@+id/layout_answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_normal"
+            android:paddingLeft="@dimen/padding_normal"
+            android:paddingRight="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/tv_number1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_circle_with_stroke_gray"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/font_text_normal" />
+
+            <TextView
+                android:id="@+id/tv_answer1_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:text="Đường, cầu đường bộ."
+                android:textColor="@color/text_color_gray" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/color_gray" />
+
+        <LinearLayout
+            android:id="@+id/layout_answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_normal"
+            android:paddingLeft="@dimen/padding_normal"
+            android:paddingRight="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/tv_number2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_circle_with_stroke_gray"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/font_text_normal" />
+
+            <TextView
+                android:id="@+id/tv_answer2_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:text="Đường, cầu đường bộ."
+                android:textColor="@color/text_color_gray" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/color_gray" />
+
+        <LinearLayout
+            android:id="@+id/layout_answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_normal"
+            android:paddingLeft="@dimen/padding_normal"
+            android:paddingRight="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/tv_number3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_circle_with_stroke_gray"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/font_text_normal" />
+
+            <TextView
+                android:id="@+id/tv_answer3_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:text="Đường, cầu đường bộ."
+                android:textColor="@color/text_color_gray" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/color_gray" />
+
+        <LinearLayout
+            android:id="@+id/layout_answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_normal"
+            android:paddingLeft="@dimen/padding_normal"
+            android:paddingRight="@dimen/padding_normal">
+
+            <TextView
+                android:id="@+id/tv_number4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_circle_with_stroke_gray"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/font_text_normal" />
+
+            <TextView
+                android:id="@+id/tv_answer4_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:text="Đường, cầu đường bộ."
+                android:textColor="@color/text_color_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_explain_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_normal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_message"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:text="Giải thích đáp án"
+                android:textAllCaps="true"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/font_text_normal"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_explain_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_normal"
+            android:layout_marginLeft="@dimen/padding_normal"
+            android:layout_marginRight="@dimen/padding_normal"
+            android:background="@drawable/bg_color_primary_with_corner"
+            android:padding="@dimen/padding_normal"
+            android:text="Đường bộ không bao gồm các công trình phụ trợ khác.\n"
+            android:textColor="@color/text_color_primary"
+            android:textSize="@dimen/font_text_small" />
+
+    </LinearLayout>
+
+</ScrollView>

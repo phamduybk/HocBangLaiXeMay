@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Vượt xe khác khi cần thiết"
+            style="@style/Font_Toolbar"/>
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Phần lớn mọi người cho rằng đi tốc độ chậm, không nên vượt xe khác, đặc biệt các xe to như ôtô tải, container… là an toàn." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/padding_large"
+                android:src="@drawable/an_toan_khi_di_xe_may_2" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Tuy nhiên, thực tế trong nhiều trường hợp, nên vượt những xe to này khi có đủ khoảng trống và thời gian để chủ động tay ga, nếu không rất dễ bị động bởi những tình huống bất ngờ như xe phía trước phanh gấp, rẽ sang hai bên." />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

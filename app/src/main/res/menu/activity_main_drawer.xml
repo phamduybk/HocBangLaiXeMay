@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_test"
+            android:icon="@drawable/ic_library_books"
+            android:title="@string/all_test_exam" />
+        <item
+            android:id="@+id/nav_all_board"
+            android:icon="@drawable/ic_swap_vertical_circle"
+            android:title="@string/notice_board" />
+        <item
+            android:id="@+id/nav_tip_trick"
+            android:icon="@drawable/ic_tip_trick"
+            android:title="@string/tip_trick" />
+
+        <item
+            android:id="@+id/nav_practice"
+            android:icon="@drawable/ic_single_motorbike"
+            android:title="@string/tip_practice" />
+
+        <item
+            android:id="@+id/nav_safe_drive"
+            android:icon="@drawable/ic_safe"
+            android:title="@string/save_drive" />
+
+    </group>
+
+    <item android:title="Liên hệ">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_gmail"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gmail" />
+        </menu>
+    </item>
+
+</menu>

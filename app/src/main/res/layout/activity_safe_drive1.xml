@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tỉnh táo nhận biết để quan sát tốt"
+            style="@style/Font_Toolbar" />
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text=" Tỉnh táo, tập trung quan sát là yếu tố quan trọng nhất để LXAT. Khi tập trung quan sát tốt phải thể hiện ở tầm bao quát phía trước, tránh liếc qua liếc lại, nhưng cũng không nên giữ hướng nhìn cố định vào một vị trí quá 2 giây." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Chẳng hạn, tình huống đặt ra là cho xe máy rẽ trái theo một góc cua của đường 2 chiều, người lái sẽ phải tập trung quan sát cùng lúc ít nhất là 10 điểm (tính từ trái sang phải): người đi bộ băng qua đường, xe ôtô ngược chiều, người lái xe máy cùng chiều phía trước, ôtô bên phải báo rẽ trái, súc vật nuôi hoặc trẻ em đi trên vỉa hè, đèn tín hiệu giao thông, biển báo giao thông, hình ảnh trên 2 gương trái phải..." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/padding_large"
+                android:src="@drawable/an_toan_khi_di_xe_may_1" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Khi lái xe vào ban đêm, người lái càng phải tập trung cao độ do tầm nhìn bị hạn chế. Lúc này độ rủi ro tăng cao, bởi các yếu tố như: đèn pha không đủ soi rõ các chướng ngại vật phía trước, người lái bị pha ngược chiều loá mắt, các phương tiện khác không kịp thấy bạn từ xa... Vì thế, hãy làm mọi cách để các xe khác nhìn thấy bạn như: trang phục sáng màu, dùng còi khi khuất tầm nhìn, không chạy sát phía sau ôtô hoặc di chuyển với tốc độ ngang bằng các xe khác trong điểm “mù” của chúng." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Trước khi đổi hướng phải bật xi nhan, nhìn 2 gương và liếc mắt kiểm soát cả điểm “mù” của gương. Ngoài ra, cần giữ khoảng cách với các xe tải chở vật liệu, chở hàng hoá không được buộc kỹ, vì chúng có thể rơi ngay trước xe bạn." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

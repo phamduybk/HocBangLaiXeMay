@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Đi đường zích zắc"
+            style="@style/Font_Toolbar"/>
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Ra hết H2 thì các bạn rẽ phải H3, lưu ý  là rẽ chậm thôi, chứ đừng rẽ kiểu “Vợ Người Ta“nhé các bạn, sau khi rẽ xong, các bạn phải định hình lại, nhìn kỹ H3, đầu tiên là bo trái, rồi bo phải rồi lại bo trái, bo phải , cứ lập lại cho đến khi hết H3 thì thôi." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/padding_large"
+                android:src="@drawable/sahinh2" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Hết H3, các bạn cũng nên như lúc nãy , rẽ trái rất chậm, vì dù sao em ấy cũng đã là vợ người ta, chạy vội một tí thì cũng chẳng giải quyết được vấn đề gì." />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

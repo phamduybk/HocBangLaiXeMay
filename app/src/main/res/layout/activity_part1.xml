@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            style="@style/Font_Toolbar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Đi vòng số 8" />
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Các bạn đang ở vạch xuất phát, khi chờ tới lượt gọi tên, bạn sẽ leo lên xe đề máy, nếu đã đề rồi thì các bạn vô số, nên đi số 2 hoặc số 3 để xe chạy ổn định, không bị giật, nếu để số 1 khi vô ga thì xe sẽ giật lên, còn nếu để số 4, xe sẽ rất yếu, kinh nghiệm của một người để số 4 khi chạy đã rớt chia sẻ." />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/padding_large"
+                android:src="@drawable/vong_so_8" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Các bạn tăng ga từ từ để xe chuyển động lao về phía trước, nhớ là tăng từ từ thôi nha, sau đó các bạn chạy thẳng đến vòng số 8 (là cụm H1 trong hình) rồi từ từ rẽ phải tránh cán vạch, và men theo vòng số 8 mà chạy." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Các bạn chạy hết 1 vòng số 8, sẽ quay trở lại ngay khúc đầu mà bạn rẽ vào vòng số 8, bạn lại chạy thêm nửa vòng nữa để tới ngay khúc eo của vòng số 8 thì nhớ rẽ phải để thoát khỏi vòng số 8 nha, không cua theo vòng số 8 nha, lưu ý cực kì quan trọng nhá." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

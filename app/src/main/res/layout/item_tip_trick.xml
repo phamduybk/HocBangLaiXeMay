@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_small">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/Font_Title"
+            android:text="Mẹo thứ 1: Phân biệt nhóm 3 biển báo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_desciption"
+            android:layout_margin="@dimen/padding_normal"
+            android:src="@drawable/meo_a1_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tv_explain1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_star"
+            android:drawableStart="@drawable/ic_star"
+            android:text="Biển thứ 1: Giao nhau với đường không ưu tiên: tức đang đi trên đường lớn gặp đường nhỏ. Nếu gặp biển này bạn sẽ được phép đi trước (qua nơi giao nhau)" />
+
+        <TextView
+            android:id="@+id/tv_explain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:drawableLeft="@drawable/ic_star"
+            android:drawableStart="@drawable/ic_star"
+            android:text="Biển thứ 1: Giao nhau với đường không ưu tiên: tức đang đi trên đường lớn gặp đường nhỏ. Nếu gặp biển này bạn sẽ được phép đi trước (qua nơi giao nhau)" />
+
+        <TextView
+            android:id="@+id/tv_explain3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:drawableLeft="@drawable/ic_star"
+            android:drawableStart="@drawable/ic_star"
+            android:text="Biển thứ 1: Giao nhau với đường không ưu tiên: tức đang đi trên đường lớn gặp đường nhỏ. Nếu gặp biển này bạn sẽ được phép đi trước (qua nơi giao nhau)" />
+
+        <TextView
+            android:id="@+id/tv_explain4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:drawableLeft="@drawable/ic_star"
+            android:drawableStart="@drawable/ic_star"
+            android:text="Biển thứ 1: Giao nhau với đường không ưu tiên: tức đang đi trên đường lớn gặp đường nhỏ. Nếu gặp biển này bạn sẽ được phép đi trước (qua nơi giao nhau)" />
+
+    </LinearLayout>
+
+</ScrollView>

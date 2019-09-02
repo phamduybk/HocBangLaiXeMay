@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Chuẩn bị tâm lý thật thoải mái tự tin như mình lái xe bình thường bên ngoài hạn chế chú ý xung quanh để tập trung thi." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Các bạn đi chậm bình tĩnh, và sau khi từ đoạn cuối phần thi các bạn đi chậm về vị trí trả xe, đừng vọt đoạn này vì nghĩ mình thi xong rồi nhé, hãy cứ bình tĩnh từ từ tiến về vị trí đích.Dưới đây là hướng dẫn kinh nghiệm chi tiết:" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_normal">
+
+                <TextView
+                    android:id="@+id/tv_part1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_next"
+                    android:drawableRight="@drawable/ic_next"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:paddingRight="@dimen/padding_normal"
+                    android:text="Đi vòng số 8"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_color_primary"
+                    android:textSize="@dimen/font_text_small" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_normal">
+
+                <TextView
+                    android:id="@+id/tv_part2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_next"
+                    android:drawableRight="@drawable/ic_next"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:paddingRight="@dimen/padding_normal"
+                    android:text="Đi đường thẳng"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_color_primary"
+                    android:textSize="@dimen/font_text_small" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_normal">
+
+                <TextView
+                    android:id="@+id/tv_part3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_next"
+                    android:drawableRight="@drawable/ic_next"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:paddingRight="@dimen/padding_normal"
+                    android:text="Đi đường zích zắc"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_color_primary"
+                    android:textSize="@dimen/font_text_small" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_normal"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_marginRight="@dimen/padding_normal">
+
+                <TextView
+                    android:id="@+id/tv_part4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_next"
+                    android:drawableRight="@drawable/ic_next"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/padding_normal"
+                    android:paddingRight="@dimen/padding_normal"
+                    android:text="Đi đường mấp mô"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_color_primary"
+                    android:textSize="@dimen/font_text_small" />
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_normal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/thi_bang_lai_xe_may" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Bài thi bằng lái xe máy phần thi thực hành tổng điểm là 100, bạn đạt từ 80 điểm trở lên là hoàn thành bài thi. Cụ thể đi dễ hay khó bạn phải vào đi mới biết. Bật mí cho bạn một bí mật là không có kì thi nào lại dễ như thi bằng xe máy." />
+
+            <TextView
+                style="@style/Font_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:gravity="center_horizontal"
+                android:text=" Một số điều lưu ý khi thi thực hành:" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Sẽ thi bằng xe của trung tâm, loại xe Wave ZX, RS." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Máy đã nổ và để số sẵn (số 3) các bạn chỉ việc đi thôi." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Trong lúc người khác đang thi trong hình bạn tập trung lắng nghe giám khảo gọi tên và quan sát." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Thực hiện xong 4 bài thi bạn trả xe máy về điểm xuất phát, trả mũ bảo hiểm và không tắt máy. Sau đó bạn cầm chứng minh thư lên bàn giám khảo lấy giấy hẹn." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_id" />
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_ic_left"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:focusable="true"
+            android:padding="@dimen/padding_icon_toolbar"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/line_road"
+            style="@style/Font_Toolbar" />
+
+        <View
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small">
+
+            <TextView
+                style="@style/Font_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhóm 6 vạch kẻ đường trong giao thông đường bộ" />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Vạch kẻ đường là một dạng báo hiệu để hướng dẫn, điều khiển giao thông nhằm nâng cao an toàn và khả năng thông xe. Người tham gia giao thông cần chấp hành vạch kẻ đường. Vạch kẻ đường chia làm 2 loại: vạch nằm ngang và vạch nằm đứng." />
+
+            <TextView
+                style="@style/Font_Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_small"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Vạch kẻ đường có thể dùng độc lập hoặc có thể kết hợp với các loại biển báo hiệu đường bộ hoặc đèn tín hiệu chỉ huy giao thông. Trong trường hợp ở một nơi vừa có vạch kẻ đường vừa có cả biển báo thì người lái xe phải tuân thủ theo sự điều khiển của biển báo hiệu." />
+
+            <TextView
+                style="@style/Font_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:gravity="center_horizontal"
+                android:text="Hình ảnh chi tiết các vạch kẻ đường giao thông đường bộ" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_normal"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/cac_loai_vach_ke_duong_giao_thong_duong_bo" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_normal"
+                style="@style/Font_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_subdirectory"
+                android:drawableStart="@drawable/ic_subdirectory"
+                android:gravity="center_vertical"
+                android:text="Chi tiết ý nghĩa từng vạch kẻ đường" />
+
+            <ImageView
+                android:layout_marginTop="@dimen/padding_normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/y_nghia_hinh_anh_vach_ke_duong_giao_thong_duong_bo_2018" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
